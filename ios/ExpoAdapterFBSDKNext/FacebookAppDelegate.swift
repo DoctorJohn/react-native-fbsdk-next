@@ -1,5 +1,7 @@
 import ExpoModulesCore
 import FBSDKCoreKit
+import AuthenticationServices
+import SafariServices
 
 public class FacebookAppDelegate: ExpoAppDelegateSubscriber {
   public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
